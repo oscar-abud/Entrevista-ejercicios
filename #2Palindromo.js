@@ -9,10 +9,11 @@ const isPalindromo = str => {
     //split para transformarlo en una lista para ocupar la funcion reverse y luego uniendolo todo en una cadena de texto con join
 }
 
-//Otra forma de hacerlo sin el metodo reverse
+//Otra forma de hacerlo sin el metodo reverse y sin split
 const anotherWay = str => {
     const string = String(str)
     let reverseStr = ''
+
     for (const letra of string) {
         reverseStr = letra + reverseStr
     }
