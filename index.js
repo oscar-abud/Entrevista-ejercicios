@@ -1,1 +1,1 @@
-console.log('Hola Mundo')
+console.log('Hola Mundo estos ejercicios sirven para poder practicar para entrevistas de logica de programacion que piden en algunos lugares.')
